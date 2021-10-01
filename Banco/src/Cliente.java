@@ -41,7 +41,7 @@ public class Cliente {
       
         Scanner lectura;
         lectura = new Scanner(System.in);
-        System.out.println("Proporciona los sigueintes datos del cliente");
+        System.out.println("Ingresa los sigueintes datos del cliente");
 
         System.out.println("Nombre:");
         setNombre(lectura.nextLine());
