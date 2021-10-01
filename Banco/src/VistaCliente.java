@@ -50,14 +50,14 @@ public class VistaCliente {
     //Pedir número de cuenta del que se va a transferir
     public Integer cuentaQueTransfiere(){//envia un entero conocido como numero de cuenta.
         lectura = new Scanner(System.in);
-        System.out.println("Ingrese el número de cuenta que transferira a otra cuenta:");
+        System.out.println("Ingrese el número de cuenta que transfiere:");
         return lectura.nextInt();
     }    
 
     //Pedir número de cuenta que recibira la transferencia
     public Integer cuentaQueRecibeTransferecia(){//envia un entero conocido como numero de cuenta.
         lectura = new Scanner(System.in);
-        System.out.println("Ingrese el número de cuenta que recibe la transferencia:");
+        System.out.println("Ingrese el número de cuenta a recibir:");
         return lectura.nextInt();
     }    
 
