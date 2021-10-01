@@ -95,7 +95,7 @@ public class VistaCliente {
             System.out.println("Número de cuenta: "+ objeto.getNumeroDeCuenta());
             System.out.println("Saldo: "+ objeto.getSaldo());
         } else{
-            System.out.println("Cliente Inexistente");
+            System.out.println("El cliente no existe");
         }
     }
 }
